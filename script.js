@@ -8,12 +8,10 @@ function secondHandRotation() {
     let seconds = sec.getSeconds();
      
     seconds =  seconds * 6;
-    // const audio = new Audio("/assets/tik.mp3");
-    // audio.play();
-    // const audio = new Audio("/assets/tik.mp3"); // Absolute path
-    // audio.play();
-    //  audio.currentTime = 0;
-    //  audio.volume = 0.5;
+    const audio = new Audio("/assets/tik.mp3");
+    audio.play();
+    audio.currentTime = 0;
+     audio.volume = 0.5;
     secondHandEl.style.transform = `rotate(${seconds}deg)`;
    
     
@@ -22,9 +20,7 @@ function secondHandRotation() {
 function  minuteRotation(){
     const min = new Date();
     let minutes = min.getMinutes();
-    console.log(minutes);
     minutes = minutes * 6 ;
-    console.log("working>>")
     minuteHandEl.style.transform = `rotate(${minutes}deg)`;
 }
 
