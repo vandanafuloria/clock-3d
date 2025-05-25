@@ -11,7 +11,7 @@ function secondHandRotation() {
     const audio = new Audio("/assets/tik.mp3");
     audio.play();
     audio.currentTime = 0;
-     audio.volume = 0.5;
+    audio.volume = 1;
     secondHandEl.style.transform = `rotate(${seconds}deg)`;
    
     
@@ -32,7 +32,7 @@ function hourRotaion(){
  
 }
 
- const handler1 = setInterval(secondHandRotation, 1000);
+const handler1 = setInterval(secondHandRotation, 1000);
 const  handler2 = setInterval(minuteRotation, 60000)
 const handler3  = setInterval(hourRotaion, 1000 * 60 * 60 ); 
 

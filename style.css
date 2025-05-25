@@ -5,12 +5,13 @@
 }
 body{
     perspective: 500px;
+    background-image: url("https://www.shutterstock.com/image-vector/white-brick-wall-seamless-pattern-600nw-2544187449.jpg");
 }
 .clock{
     width: 300px;
     height: 300px;
     border: 2px solid black;
-    margin: auto;
+    margin: 10rem auto;
     border-radius: 50%;
     background-image: url(https://e7.pngegg.com/pngimages/236/917/png-clipart-clock-face-digital-clock-time-clock-angle-white-thumbnail.png);
     background-position: center;
